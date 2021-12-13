@@ -12,5 +12,14 @@ npm i -g ganache@beta
 mkdir ${directory_name} && cd ${directory_name}
 # make project with truffle
 truffle unbox react
+```
 
+### compile
+```bash
+# compile with truffle
+truffle compile
+# make deploy file each .sol file
+# make ${no}_deploy_${sol_file_name}.js in contracts folder
+# deploy
+truffle migrate
 ```
