@@ -12,6 +12,8 @@ npm i -g ganache@beta
 mkdir ${directory_name} && cd ${directory_name}
 # make project with truffle
 truffle unbox react
+# or initial truffle
+truffle init
 ```
 
 ### compile
